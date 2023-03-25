@@ -7,27 +7,31 @@ body {
   background-color: #ecedf3;
   margin: 0;
 }
-h1{
-  color: #172B4D;
-}
-.connect {
-    color: #7f8cff;
-    text-decoration: none;
-  }
 
-  .big-btn{
-    text-decoration: none;
-    color: #6070FF;
-    border-radius: 10px;
-    border:#6070FF solid 1px;
-    text-align: center;
-    padding: 12px;
-    font-size: 17px;
-  }
-.big-header{
-    margin: 0;
-    font-size: 40px;
-  }
+h1 {
+  color: #172b4d;
+}
+
+.connect {
+  color: #7f8cff;
+  text-decoration: none;
+}
+
+.big-btn {
+  text-decoration: none;
+  color: #6070ff;
+  border-radius: 10px;
+  border: #6070ff solid 1px;
+  text-align: center;
+  padding: 12px;
+  font-size: 17px;
+}
+
+.big-header {
+  margin: 0;
+  font-size: 40px;
+}
+
 @media screen and (min-width: 375px) {
   #main-header {
     background-color: #fff;
@@ -37,6 +41,11 @@ h1{
     padding: 0 24px 0 24px;
     height: 92px;
     align-items: flex-end;
+  }
+
+  .work-item h1 {
+    font-size: 32px;
+    margin: 12px 0 12px 0;
   }
 
   #main-header h1 {
@@ -76,15 +85,15 @@ h1{
     margin-bottom: 114px;
   }
 
-  
+  .work-item p {
+    font-size: 15px;
+  }
 
   #headline p {
     font-weight: normal;
     font-size: 16px;
     color: #344563;
   }
-
-  
 
   .social-links {
     list-style-type: none;
@@ -97,12 +106,14 @@ h1{
   .social-links a {
     text-decoration: none;
   }
-  #works{
+
+  #works {
     display: grid;
     row-gap: 88px;
   }
-  .work-item{
-    background-color: #ffffff;
+
+  .work-item {
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     border-radius: 25px;
@@ -112,43 +123,41 @@ h1{
     border-color: #dfe1e6;
     padding: 16px 16px 40px 16px;
   }
-  .work-item h1{
-    font-size: 32px;
-    margin: 12px 0 12px 0;
-  }
-  .work-item .due-time{
-    list-style-image: url('Counter.png');    
+
+  .work-item .due-time {
+    list-style-image: url('Counter.png');
     font-weight: 600;
-    color: #7A869A;
+    color: #7a869a;
     display: flex;
     padding: 0;
     font-size: 13px;
   }
-  .due-time li{
+
+  .due-time li {
     margin-right: 30px;
   }
-  .due-time .company-name{
+
+  .due-time .company-name {
     list-style-type: none;
     color: #344563;
     text-transform: uppercase;
   }
-  .work-item p{
-    font-size: 15px;
-  }
-  .work-item .tech-tags{
+
+  .work-item .tech-tags {
     display: flex;
     list-style-type: none;
     margin: 12px 0;
     padding: 0;
-    margin-bottom: 36px;    
+    margin-bottom: 36px;
   }
-  .work-item .tech-tags a{
-    background: #EBEBFF;
+
+  .work-item .tech-tags a {
+    background: #ebebff;
     padding: 4px 12px;
     border-radius: 8px;
     margin-right: 8px;
     text-decoration: none;
-    color: #6070FF;
+    color: #6070ff;
     font-size: 12px;
   }
 
@@ -161,39 +170,46 @@ h1{
     padding: 114px 24px 114px 24px;
     border-radius: 0 90px 0 0;
   }
+
   #about-myself p {
     font-weight: normal;
     font-size: 16px;
     color: #344563;
   }
-  #about-myself #tech-list{
+
+  #about-myself #tech-list {
     margin-top: 60px;
     list-style-type: none;
     padding: 0;
   }
-  ul#tech-list li{
-    color: #000;    
+
+  ul#tech-list li {
+    color: #000;
     font-weight: 500;
     font-size: 20px;
-    padding: 24px 0; 
+    padding: 24px 0;
     margin: 0;
   }
-  ul#tech-list li a{
-    color: #ACB7C3;    
+
+  ul#tech-list li a {
+    color: #acb7c3;
     text-decoration: none;
   }
-  ul#tech-list li ul{
+
+  ul#tech-list li ul {
     list-style-type: none;
     padding: 20px 0;
     display: flex;
     flex-direction: column;
     gap: 12px;
   }
-  ul#tech-list li div{
+
+  ul#tech-list li div {
     display: flex;
     justify-content: space-between;
   }
-  ul#tech-list li ul li{
+
+  ul#tech-list li ul li {
     background: #ebebff;
     display: flex;
     padding: 9px 12px;
@@ -202,13 +218,15 @@ h1{
     color: #253858;
     font-size: 15px;
   }
-  ul#tech-list li ul li img{
+
+  ul#tech-list li ul li img {
     width: 48px;
     height: 48px;
     margin-right: 16px;
   }
-  .tech-list-closed{
-    border-bottom: 1px solid #DFE1E6;    
+
+  .tech-list-closed {
+    border-bottom: 1px solid #dfe1e6;
     display: flex;
     justify-content: space-between;
   }
