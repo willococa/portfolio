@@ -1,6 +1,86 @@
-#vector-1{
-	width: 16px;
-	fill:rgb(0,0,255);
-	stroke-width:10;
-	stroke:rgb(0,0,0)
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+}
+
+@media screen and (min-width: 375px) {
+  #main-header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 24px 0 24px;
+    height: 92px;
+    align-items: flex-end;
+  }
+
+  #main-header h1 {
+    color: #6070f7;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    padding-left: 0;
+    font-size: 18px;
+  }
+
+  #main-header img {
+    height: 40px;
+  }
+
+  #headline {
+    background:
+      url('assets/Ellipse 3.png') top 60.24px left 323px no-repeat,
+      url('assets/Ellipse 4.png') bottom 40.9px right 118px no-repeat,
+      url('assets/Ellipse 5.png') top 63.81px left 125px no-repeat,
+      url('assets/Ellipse 8.png') top 18px left 214px no-repeat,
+      url('assets/Ellipse 11.png') top 36.64px right 351.4px no-repeat,
+      url('assets/Ellipse 12.png') bottom 171.31px left 317.67px no-repeat,
+      url('assets/Ellipse 13.png') bottom 148.8px right 33.24px no-repeat,
+      url('assets/Ellipse 14.png') top 223px right 66px no-repeat,
+      url('assets/Ellipse 15.png') bottom 36px left 53px no-repeat,
+      url('assets/Rectangle 4.png') top 26px left 294px  no-repeat,
+      url('assets/Rectangle 5.png') bottom 26.85px left 187px  no-repeat,
+      url('assets/Rectangle 6.png') top 12px right 366.27px no-repeat,
+      url('assets/Rectangle 7.png') top 56px left 127.18px no-repeat,
+      rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    color: #172b4d;
+    padding: 114px 24px 114px 24px;
+    border-radius: 0 0 0 90px;
+  }
+
+  #headline h1 {
+    color: #172b4d;
+    margin: 0;
+    font-size: 40px;
+  }
+
+  #headline p {
+    font-weight: normal;
+    font-size: 16px;
+    color: #344563;
+  }
+
+  #headline #connect {
+    color: #7f8cff;
+    text-decoration: none;
+  }
+
+  .social-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-left: 0;
+  }
+
+  .social-links a {
+    text-decoration: none;
+  }
 }
