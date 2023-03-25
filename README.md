@@ -92,17 +92,21 @@ it to show my clients my work
 ## 💻 Getting Started <a name="getting-started"></a>
 
 ### Prerequisites
-<code>N/A</code>
+- A code editor
+- A web browser
 ### Setup
 > Clone repo and open index.html in any modern browser
+- git clone git@github.com:willococa/portfolio.git
+- cd portfolio
+- open index.html in browser
 ### Install
 <code>N/A</code>
 ### Usage
-><code>N/A</code>
+> Open in modern browsers like chrome or firefox
 ### Run tests
 ><code>N/A</code>
 ### Deployment
-><code>N/A</code>
+> Deploy with github pages
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
 
@@ -128,7 +132,7 @@ it to show my clients my work
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
-><code>N/A</code>
+><a href="https://github.com/willococa/portfolio/issues">Report Issues</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
