@@ -10,7 +10,24 @@ body {
 h1{
   color: #172B4D;
 }
+.connect {
+    color: #7f8cff;
+    text-decoration: none;
+  }
 
+  .big-btn{
+    text-decoration: none;
+    color: #6070FF;
+    border-radius: 10px;
+    border:#6070FF solid 1px;
+    text-align: center;
+    padding: 12px;
+    font-size: 17px;
+  }
+.big-header{
+    margin: 0;
+    font-size: 40px;
+  }
 @media screen and (min-width: 375px) {
   #main-header {
     background-color: #fff;
@@ -59,10 +76,7 @@ h1{
     margin-bottom: 114px;
   }
 
-  #headline h1 {
-    margin: 0;
-    font-size: 40px;
-  }
+  
 
   #headline p {
     font-weight: normal;
@@ -70,10 +84,7 @@ h1{
     color: #344563;
   }
 
-  #headline #connect {
-    color: #7f8cff;
-    text-decoration: none;
-  }
+  
 
   .social-links {
     list-style-type: none;
@@ -85,6 +96,10 @@ h1{
 
   .social-links a {
     text-decoration: none;
+  }
+  #works{
+    display: grid;
+    row-gap: 88px;
   }
   .work-item{
     background-color: #ffffff;
@@ -136,13 +151,65 @@ h1{
     color: #6070FF;
     font-size: 12px;
   }
-  .work-item .project-btn{
+
+  #about-myself {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 114px;
+    padding: 114px 24px 114px 24px;
+    border-radius: 0 90px 0 0;
+  }
+  #about-myself p {
+    font-weight: normal;
+    font-size: 16px;
+    color: #344563;
+  }
+  #about-myself #tech-list{
+    margin-top: 60px;
+    list-style-type: none;
+    padding: 0;
+  }
+  ul#tech-list li{
+    color: #000;    
+    font-weight: 500;
+    font-size: 20px;
+    padding: 24px 0; 
+    margin: 0;
+  }
+  ul#tech-list li a{
+    color: #ACB7C3;    
     text-decoration: none;
-    color: #6070FF;
+  }
+  ul#tech-list li ul{
+    list-style-type: none;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  ul#tech-list li div{
+    display: flex;
+    justify-content: space-between;
+  }
+  ul#tech-list li ul li{
+    background: #ebebff;
+    display: flex;
+    padding: 9px 12px;
     border-radius: 10px;
-    border:#6070FF solid 1px;
-    text-align: center;
-    padding: 12px;
-    font-size: 17px;
+    align-items: center;
+    color: #253858;
+    font-size: 15px;
+  }
+  ul#tech-list li ul li img{
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+  }
+  .tech-list-closed{
+    border-bottom: 1px solid #DFE1E6;    
+    display: flex;
+    justify-content: space-between;
   }
 }
