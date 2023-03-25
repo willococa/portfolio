@@ -1,6 +1,52 @@
-#vector-1{
-	width: 16px;
-	fill:rgb(0,0,255);
-	stroke-width:10;
-	stroke:rgb(0,0,0)
+* { 
+	box-sizing: border-box;
+	font-family: "Poppins";
+}
+@media screen and (min-width: 375px){
+	body {
+		background-color: #ffffff;
+	}
+	#main-header{
+		display: flex;
+		justify-content: space-between;
+		margin: 12px;
+	}
+	#main-header h1{
+		color:#6070f7;		
+	    margin: 0;
+	    padding-top: 10px;
+	    padding-left: 12px;
+	    font-size: 18px;
+	}
+	#main-header img{
+		height: 40px;
+	}
+	main{
+		display: flex;
+		flex-direction: column;
+		color: #172B4D;
+		margin-left: 24px;
+		margin-right: 24px;
+	}
+	main h1{
+		font-size: 40px;
+	}
+	main p{
+		font-weight: normal;
+		font-size: 16px;
+	}
+	main #connect{
+		color: #7f8cff;
+		text-decoration: none;
+	}
+	.social-links{
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+		gap: 15px;
+		padding-left: 0;
+	}
+	.social-links a{
+		text-decoration: none;
+	}
 }
