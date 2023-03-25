@@ -4,8 +4,11 @@
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #ecedf3;
   margin: 0;
+}
+h1{
+  color: #172B4D;
 }
 
 @media screen and (min-width: 375px) {
@@ -53,10 +56,10 @@ body {
     color: #172b4d;
     padding: 114px 24px 114px 24px;
     border-radius: 0 0 0 90px;
+    margin-bottom: 114px;
   }
 
   #headline h1 {
-    color: #172b4d;
     margin: 0;
     font-size: 40px;
   }
@@ -82,5 +85,64 @@ body {
 
   .social-links a {
     text-decoration: none;
+  }
+  .work-item{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border: 1.5px solid;
+    border-color: #dfe1e6;
+    padding: 16px 16px 40px 16px;
+  }
+  .work-item h1{
+    font-size: 32px;
+    margin: 12px 0 12px 0;
+  }
+  .work-item .due-time{
+    list-style-image: url('Counter.png');    
+    font-weight: 600;
+    color: #7A869A;
+    display: flex;
+    padding: 0;
+    font-size: 13px;
+  }
+  .due-time li{
+    margin-right: 30px;
+  }
+  .due-time .company-name{
+    list-style-type: none;
+    color: #344563;
+    text-transform: uppercase;
+  }
+  .work-item p{
+    font-size: 15px;
+  }
+  .work-item .tech-tags{
+    display: flex;
+    list-style-type: none;
+    margin: 12px 0;
+    padding: 0;
+    margin-bottom: 36px;    
+  }
+  .work-item .tech-tags a{
+    background: #EBEBFF;
+    padding: 4px 12px;
+    border-radius: 8px;
+    margin-right: 8px;
+    text-decoration: none;
+    color: #6070FF;
+    font-size: 12px;
+  }
+  .work-item .project-btn{
+    text-decoration: none;
+    color: #6070FF;
+    border-radius: 10px;
+    border:#6070FF solid 1px;
+    text-align: center;
+    padding: 12px;
+    font-size: 17px;
   }
 }
