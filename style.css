@@ -27,6 +27,24 @@ h1 {
   font-size: 17px;
 }
 
+.big-btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.big-btn:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+/* links don't have a disabled property so this class is aded dinamically to disable any button */
+.disabled-btn {
+  pointer-events: none;
+  background-color: #fff;
+  color: lightgrey;
+  border: lightgrey solid 1px;
+}
+
 .big-header {
   margin: 0;
   font-size: 40px;
