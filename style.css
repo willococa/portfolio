@@ -12,6 +12,10 @@ h1 {
   color: #172b4d;
 }
 
+h2 {
+  color: #172b4d;
+}
+
 .connect {
   color: #7f8cff;
   text-decoration: none;
@@ -61,7 +65,7 @@ h1 {
     align-items: flex-end;
   }
 
-  .work-item h1 {
+  .work-item h2 {
     font-size: 32px;
     margin: 12px 0 12px 0;
   }
