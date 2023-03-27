@@ -262,7 +262,7 @@ h2 {
   }
 
   .css-change {
-    float: center;
+    float: left;
+	text-decoration: none;
   }
-  
 }
