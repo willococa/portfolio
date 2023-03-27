@@ -253,6 +253,16 @@ h2 {
     justify-content: space-between;
   }
   ul.changed-list{
-    
+    list-style: none;
+    display: inline-block;
   }
+  
+  .html-change {
+    float: left;
+  }
+
+  .css-change {
+    float: center;
+  }
+  
 }
