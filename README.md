@@ -76,6 +76,8 @@ it to show my clients my work
 - **[Show Toolbar]**
 - **[Has linters working]**
 - **[Show Headline]**
+- **[Show Works Section and styles]**
+- **[Show About myself section and styles]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

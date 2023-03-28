@@ -4,8 +4,54 @@
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #ecedf3;
   margin: 0;
+}
+
+h1 {
+  color: #172b4d;
+}
+
+h2 {
+  color: #172b4d;
+}
+
+.connect {
+  color: #7f8cff;
+  text-decoration: none;
+}
+
+.big-btn {
+  text-decoration: none;
+  color: #6070ff;
+  border-radius: 10px;
+  border: #6070ff solid 1px;
+  text-align: center;
+  padding: 12px;
+  font-size: 17px;
+}
+
+.big-btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.big-btn:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+/* links don't have a disabled property so this class is aded dinamically to disable any button */
+.disabled-btn {
+  pointer-events: none;
+  background-color: #fff;
+  color: lightgrey;
+  border: lightgrey solid 1px;
+}
+
+.big-header {
+  margin: 0;
+  font-size: 40px;
 }
 
 @media screen and (min-width: 375px) {
@@ -19,7 +65,12 @@ body {
     align-items: flex-end;
   }
 
-  #main-header h1 {
+  .work-item h2 {
+    font-size: 32px;
+    margin: 12px 0 12px 0;
+  }
+
+  #main-header h2 {
     color: #6070f7;
     margin: 0;
     padding-top: 10px;
@@ -53,23 +104,17 @@ body {
     color: #172b4d;
     padding: 114px 24px 114px 24px;
     border-radius: 0 0 0 90px;
+    margin-bottom: 114px;
   }
 
-  #headline h1 {
-    color: #172b4d;
-    margin: 0;
-    font-size: 40px;
+  .work-item p {
+    font-size: 15px;
   }
 
   #headline p {
     font-weight: normal;
     font-size: 16px;
     color: #344563;
-  }
-
-  #headline #connect {
-    color: #7f8cff;
-    text-decoration: none;
   }
 
   .social-links {
@@ -82,5 +127,129 @@ body {
 
   .social-links a {
     text-decoration: none;
+  }
+
+  #works {
+    display: grid;
+    row-gap: 88px;
+  }
+
+  .work-item {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border: 1.5px solid;
+    border-color: #dfe1e6;
+    padding: 16px 16px 40px 16px;
+  }
+
+  .work-item .due-time {
+    list-style-image: url('Counter.png');
+    font-weight: 600;
+    color: #7a869a;
+    display: flex;
+    padding: 0;
+    font-size: 13px;
+  }
+
+  .due-time li {
+    margin-right: 30px;
+  }
+
+  .due-time .company-name {
+    list-style-type: none;
+    color: #344563;
+    text-transform: uppercase;
+  }
+
+  .work-item .tech-tags {
+    display: flex;
+    list-style-type: none;
+    margin: 12px 0;
+    padding: 0;
+    margin-bottom: 36px;
+  }
+
+  .work-item .tech-tags a {
+    background: #ebebff;
+    padding: 4px 12px;
+    border-radius: 8px;
+    margin-right: 8px;
+    text-decoration: none;
+    color: #6070ff;
+    font-size: 12px;
+  }
+
+  #about-myself {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 114px;
+    padding: 114px 24px 114px 24px;
+    border-radius: 0 90px 0 0;
+  }
+
+  #about-myself p {
+    font-weight: normal;
+    font-size: 16px;
+    color: #344563;
+  }
+
+  #about-myself #tech-list {
+    margin-top: 60px;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  ul#tech-list li {
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 24px 0;
+    margin: 0;
+  }
+
+  ul#tech-list li a {
+    color: #acb7c3;
+    text-decoration: none;
+  }
+
+  ul#tech-list li ul {
+    list-style-type: none;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  ul#tech-list li div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ul#tech-list li ul li {
+    background: #ebebff;
+    display: flex;
+    padding: 9px 12px;
+    border-radius: 10px;
+    align-items: center;
+    color: #253858;
+    font-size: 15px;
+  }
+
+  ul#tech-list li ul li img {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+  }
+
+  .tech-list-closed {
+    border-bottom: 1px solid #dfe1e6;
+    display: flex;
+    justify-content: space-between;
   }
 }
