@@ -120,6 +120,11 @@ it to show my clients my work
 - Twitter: [@twitterhandle](https://twitter.com/willocoro)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/william-ocor%C3%B3-591003268)
 
+ >👤 **Gardimy Charles**
+- GitHub: [@Gardimy](https://github.com/Gardimy)
+- Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
+- LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 

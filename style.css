@@ -277,4 +277,30 @@ h2 {
     flex-direction: column;
   }
 
+  .Name {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 5;
+    color: #172b4d;
+    padding: 2%;
+    height: 48px;
+    width: 100%;
+  }
+
+  .message {
+	background: #fff;
+	border: 1px solid #cfd8dc;
+	border-radius: 8px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	color: #b3bac5;
+	padding: 2%;
+	width: 100%;
+  }
 }
