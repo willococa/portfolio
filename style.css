@@ -254,12 +254,12 @@ h2 {
   }
 
   .contact-section {
-    background: #6070ff;
+    background: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 0 24px;
+    padding: 0;
   }
 
   .contact-section h2 {
@@ -270,11 +270,49 @@ h2 {
     letter-spacing: 0em;
     text-align: center;
     color: white;
+    font-size: 40px;
+    margin-top: 110px;
+    /* padding: 24px 0; */
+  }
+  .contact-section p{
+    font-size: 20px;
+    color: #fff;
+  }
+  .contact-wrapper{
+    padding: 0 24px 45px 24px;
+    margin-top: 62px;
+    border-radius: 90px 0 0 0;
+    background:
+      url("assets/Ellipse 4b.png")
+      top 60.24px
+      left 323px no-repeat,
+      url("assets/Ellipse 12b.png")
+      top 55px left 153px no-repeat,
+      url("assets/Ellipse 3b.png")
+      top 48.75px left 328px no-repeat,
+      url("assets/Ellipse 5b.png")
+      bottom 48.83px right 77.83px no-repeat,
+      url("assets/Rectangle 4b.png")
+      top 21px left 310.4px no-repeat,
+      url("assets/Rectangle 7b.png")
+      bottom 58.55px right 47px no-repeat,
+      #6070ff;
   }
 
   .contact-form {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+  }
+  .contact-form .submit{
+    border-radius: 12px;
+    padding: 12px;
+    width: 142px;
+    color: #6070ff;
+    background: #fff;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
   }
 
   .Name {
