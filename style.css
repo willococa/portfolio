@@ -79,8 +79,6 @@ h2 {
     color: white;
     font-size: 40px;
     margin-top: 110px;
-
-    /* padding: 24px 0; */
   }
 
   #main-header h2 {
@@ -318,6 +316,22 @@ h2 {
     font-weight: 500;
   }
 
+.contact-form .submit:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.contact-form .submit:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+/*class to add through js to disable the button"*/
+.contact-form .disabled-submit {
+  pointer-events: none;
+  background-color: #fff;
+  color: lightgrey;
+  border: lightgrey solid 1px;
+}
   .Name {
     background: #fff;
     border: 1px solid #cfd8dc;
