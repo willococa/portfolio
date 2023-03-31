@@ -50,11 +50,13 @@ h2 {
   text-align: center;
   padding: 12px;
   font-size: 17px;
+  transition: transform 0.3s ease 0s;
 }
 
 .big-btn:hover {
   background-color: #6070ff;
   color: #fff;
+  transform: translateY(-10px);
 }
 
 .big-btn:active {
