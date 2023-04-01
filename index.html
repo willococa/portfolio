@@ -12,12 +12,17 @@
 <body>
 	<header id="main-header">
 			<h2>My Logo</h2>
-			<a href="#"><img id="breadcrumb-btn" src="assets/mn-btn.png" alt=""></a>
+			<a href="#" class="breadcrumb"><img id="breadcrumb-btn" src="assets/mn-btn.png" alt=""></a>
+			<ul class="desktop-nav">
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
 	</header>
 	<main>
 		<section id="headline">
 			
-				<h1 class="big-header">I’m William.
+				<h1 class="big-header">I’m William. <br>
 		Glad to see you!</h1>
 		<p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
 		<a class="connect" href="#">LET’S CONNECT</a>
@@ -34,26 +39,27 @@
 		<section id="works">
 			<div class="work-item">
 				<img src="assets/snapshoot-portfolio0.png" alt="">
-				<h2>Tonic</h2>
-				<ul class="due-time">
-					<li class="company-name">Canopy</li>
-					<li>Back end Dev</li>
-					<li>2015</li>
-				</ul>
-				<p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-				<ul class="tech-tags">
-					<li><a href="#">HTML</a></li>
-					<li><a href="#">CSS</a></li>
-					<li><a href="#">JavaScript</a></li>
-				</ul>
-				<span>
-					<a href="#" class="big-btn">See Project</a>
+				<span class="work-item-list">					
+					<h2>Tonic</h2>
+					<ul class="due-time">
+						<li class="company-name">Canopy</li>
+						<li>Back end Dev</li>
+						<li>2015</li>
+					</ul>
+					<p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+					<ul class="tech-tags">
+						<li><a href="#">HTML</a></li>
+						<li><a href="#">CSS</a></li>
+						<li><a href="#">JavaScript</a></li>
+					</ul>
+					<span>
+						<a href="#" class="big-btn">See Project</a>
+					</span>
 				</span>
 			</div>
-			<div class="work-item">
+			<div class="work-item work-item-odd ">
 				<img src="assets/snapshoot-portfolio1.png" alt="">
-				<h2>Multi-Post
-Stories</h2>
+				<span class="work-item-list"><h2>Multi-Post Stories</h2>
 				<ul class="due-time">
 					<li class="company-name">Canopy</li>
 					<li>Back end Dev</li>
@@ -67,11 +73,11 @@ Stories</h2>
 				</ul>
 				<span>
 					<a href="#" class="big-btn">See Project</a>
-				</span>
+				</span></span>
 			</div>
 			<div class="work-item">
 				<img src="assets/snapshoot-portfolio2.png" alt="">
-				<h2>Tonic</h2>
+				<span class="work-item-list"><h2>Tonic</h2>
 				<ul class="due-time">
 					<li class="company-name">Canopy</li>
 					<li>Back end Dev</li>
@@ -85,11 +91,11 @@ Stories</h2>
 				</ul>
 				<span>
 					<a href="#" class="big-btn">See Project</a>
-				</span>
+				</span></span>
 			</div>
-			<div class="work-item">
+			<div class="work-item work-item-odd ">
 				<img src="assets/snapshoot-portfolio3.png" alt="">
-				<h2>Multi-Post
+				<span class="work-item-list"><h2>Multi-Post
 Stories</h2>
 				<ul class="due-time">
 					<li class="company-name">Canopy</li>
@@ -104,27 +110,29 @@ Stories</h2>
 				</ul>
 				<span>
 					<a href="#" class="big-btn">See Project</a>
-				</span>
+				</span></span>
 			</div>
 		</section>
 		<section id="about-myself">
-			<h2 class="big-header">About Myself</h2>
-			<p>Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-			<a class="connect" href="#">LET’S CONNECT</a>
-		<ul class="social-links">
-			<li><a href=""><img src="assets/twt.svg" alt=""></a></li>
-			<li><a href="">
-				<img src="assets/lnk.svg" alt="">
-			</a></li>
-			<li><a href=""><img src="assets/m.svg" alt=""></a></li>
-			<li><a href=""><img src="assets/gh.svg" alt=""></a></li>
-			<li><a href=""><img src="assets/pc.svg" alt=""></a></li>
-		</ul>
-		<div class="resume-btn">
-			<a href="#" class="big-btn">Get my resume</a>
-		</div> 
+			<span class="about-left"> 
+				<h2 class="big-header">About Myself</h2>
+				<p>Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+				<a class="connect" href="#">LET’S CONNECT</a>
+			<ul class="social-links">
+				<li><a href=""><img src="assets/twt.svg" alt=""></a></li>
+				<li><a href="">
+					<img src="assets/lnk.svg" alt="">
+				</a></li>
+				<li><a href=""><img src="assets/m.svg" alt=""></a></li>
+				<li><a href=""><img src="assets/gh.svg" alt=""></a></li>
+				<li><a href=""><img src="assets/pc.svg" alt=""></a></li>
+			</ul>
+			<div class="resume-btn">
+				<a href="#" class="big-btn">Get my resume</a>
+			</div> 
+		</span> 
 		<ul id="tech-list">
-			<li><div>
+			<li class="selected"><div>
 					<span>Languages</span>
 					<a href="#">⌵</a>
 				</div>			
@@ -147,6 +155,8 @@ Stories</h2>
 		</section>
 		<section class="contact-section">
 			<div class="contact-wrapper">
+				<span class="wrapper-content">
+					
 			<h2>Contact me</h2>
 			<p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
 I’d love to help with it!</p>
@@ -158,6 +168,7 @@ I’d love to help with it!</p>
 			</form>
 				
 			</div>
+				</span>
 		</section>
 	</main>
 </body>
