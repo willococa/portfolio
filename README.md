@@ -114,11 +114,18 @@ it to show my clients my work
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **William Ocoro**
 
 - GitHub: [@githubhandle](https://github.com/willocoro)
 - Twitter: [@twitterhandle](https://twitter.com/willocoro)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/william-ocor%C3%B3-591003268)
+
+
+>👤 **Tomás Esquivel**
+
+- GitHub: [@githubhandle](https://github.com/tomasesquivelgc)
+- Twitter: [@twitterhandle](https://twitter.com/EsquivelTomas)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tomas-esquivel-b2160568/)
 
  >👤 **Gardimy Charles**
 - GitHub: [@Gardimy](https://github.com/Gardimy)
@@ -146,7 +153,7 @@ it to show my clients my work
 
 ## ⭐️ Show your support <a name="support"></a>
 
-><code>N/A</code>
+><code><a href="https://github.com/willococa/portfolio/blob/main/LICENSE">License</a></code>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
