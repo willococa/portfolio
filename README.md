@@ -140,7 +140,7 @@ it to show my clients my work
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-><code>N/A</code>
+><code>Add javascript to code</code>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -153,7 +153,7 @@ it to show my clients my work
 
 ## ⭐️ Show your support <a name="support"></a>
 
-><code><a href="https://github.com/willococa/portfolio/blob/main/LICENSE">License</a></code>
+><code>N/A</code>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,5 +176,5 @@ it to show my clients my work
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
-><code>N/A</code>
+><code><a href="https://github.com/willococa/portfolio/blob/main/LICENSE">License</a></code>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
