@@ -470,6 +470,7 @@ ul#tech-list li ul li img {
   .work-item .due-time {
     font-size: 1.8rem;
   }
+  
   .work-item img {
     flex-basis: 55%;
   }
