@@ -1,19 +1,3 @@
-# portfolio
-This is the base of my portfolio
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is how to use this project
-REQUIRED SECTIONS:
-- linter files
-- .html file
-- .css file
-- .test.md file ignored
-- header with styles
-
--->
-
 <div align="center">
   <br/>
 
@@ -85,7 +69,7 @@ it to show my clients my work
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link] <code>N/A</code>
+- [Live Demo Link] <code>Coming soon</code>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,18 +81,18 @@ it to show my clients my work
 - A code editor
 - A web browser
 ### Setup
-> Clone repo and open index.html in any modern browser
+ Clone repo and open index.html in any modern browser
 - git clone git@github.com:willococa/portfolio.git
 - cd portfolio
 - open index.html in browser
 ### Install
 <code>N/A</code>
 ### Usage
-> Open in modern browsers like chrome or firefox
+ Open in modern browsers like chrome or firefox
 ### Run tests
-><code>N/A</code>
+<code>N/A</code>
 ### Deployment
-> Deploy with github pages
+ Deploy with github pages
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
 
@@ -121,13 +105,13 @@ it to show my clients my work
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/william-ocor%C3%B3-591003268)
 
 
->👤 **Tomás Esquivel**
+👤 **Tomás Esquivel**
 
 - GitHub: [@githubhandle](https://github.com/tomasesquivelgc)
 - Twitter: [@twitterhandle](https://twitter.com/EsquivelTomas)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tomas-esquivel-b2160568/)
 
- >👤 **Gardimy Charles**
+ 👤 **Gardimy Charles**
 - GitHub: [@Gardimy](https://github.com/Gardimy)
 - Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
 - LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
@@ -140,20 +124,22 @@ it to show my clients my work
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-><code>Add javascript to code</code>
+<code>Add javascript to code</code>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
-><a href="https://github.com/willococa/portfolio/issues">Report Issues</a>
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the<a href="https://github.com/willococa/portfolio/issues">Issues Page</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-><code>N/A</code>
+<code>If you like this project give me a start</code>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,20 +147,14 @@ it to show my clients my work
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank Microverse
+ I would like to thank Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-><code>N/A</code>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
-><code><a href="https://github.com/willococa/portfolio/blob/main/LICENSE">License</a></code>
+This project is <a href="https://github.com/willococa/portfolio/blob/main/LICENSE">MIT</a> licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
