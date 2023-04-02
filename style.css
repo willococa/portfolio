@@ -388,9 +388,10 @@ ul#tech-list li ul li img {
 }
 
 @media only screen and (min-width: 768px) {
-  ul#tech-list li ul li{
+  ul#tech-list li ul li {
     align-items: flex-start;
   }
+
   .breadcrumb {
     display: none;
   }
@@ -425,10 +426,16 @@ ul#tech-list li ul li img {
     padding-right: 26em;
     margin-bottom: 16em;
   }
-  #headline h1{
+
+  #headline h1 {
     font-size: 60px;
   }
-  #headline p{
+
+  .work-item p {
+    font-size: 1.6rem;
+  }
+
+  #headline p {
     font-size: 20px;
   }
 
@@ -464,9 +471,7 @@ ul#tech-list li ul li img {
     font-size: 1.8rem;
   }
 
-  .work-item p {
-    font-size: 1.6rem;
-  }
+
 
   .work-item img {
     flex-basis: 55%;
@@ -508,7 +513,8 @@ ul#tech-list li ul li img {
     flex-direction: column;
     padding-left: 12px;
   }
-  #tech-list  .selected ul  li img{
+
+  #tech-list .selected ul li img {
     margin-bottom: 12px;
   }
 
