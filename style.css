@@ -387,6 +387,10 @@ ul#tech-list li ul li img {
   display: none;
 }
 
+.desktop-work-items {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   ul#tech-list li ul li {
     align-items: flex-start;
@@ -541,5 +545,9 @@ ul#tech-list li ul li img {
   .submit {
     align-self: center;
     padding: 1em;
+  }
+
+  .mobile-work-item {
+    display: none;
   }
 }
