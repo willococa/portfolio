@@ -279,10 +279,10 @@ ul#tech-list li div {
 }
 
 ul#tech-list li ul li {
-  background: #ebebff;
+  background: #f7f7f9;
   display: flex;
   padding: 0.9em 1.2em;
-  border-radius: 1em;
+  border-radius: 8px;
   align-items: center;
   color: #253858;
   font-size: 1.5rem;
@@ -388,6 +388,9 @@ ul#tech-list li ul li img {
 }
 
 @media only screen and (min-width: 768px) {
+  ul#tech-list li ul li{
+    align-items: flex-start;
+  }
   .breadcrumb {
     display: none;
   }
@@ -404,6 +407,7 @@ ul#tech-list li ul li img {
     text-decoration: none;
     transition: background-color 0.4s, color 0.4s;
     transition-timing-function: ease-in;
+    font-size: 15px;
   }
 
   .desktop-nav li a:hover {
@@ -420,6 +424,12 @@ ul#tech-list li ul li img {
     padding-left: 26em;
     padding-right: 26em;
     margin-bottom: 16em;
+  }
+  #headline h1{
+    font-size: 60px;
+  }
+  #headline p{
+    font-size: 20px;
   }
 
   #main-header {
@@ -496,6 +506,10 @@ ul#tech-list li ul li img {
   #tech-list .selected ul li {
     display: flex;
     flex-direction: column;
+    padding-left: 12px;
+  }
+  #tech-list  .selected ul  li img{
+    margin-bottom: 12px;
   }
 
   .about-left {
