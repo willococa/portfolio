@@ -390,7 +390,9 @@ ul#tech-list li ul li img {
 .desktop-work-items {
   display: none;
 }
-
+.contact-form label{
+  display: none;
+}
 @media only screen and (min-width: 768px) {
   ul#tech-list li ul li {
     align-items: flex-start;
