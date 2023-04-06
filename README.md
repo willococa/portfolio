@@ -69,7 +69,7 @@ it to show my clients my work
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://willococa.github.io/portfolio/)
+- [Live Demo Link] <code>Coming soon</code>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
