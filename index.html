@@ -12,12 +12,18 @@
 <body>
 	<header id="main-header">
 			<h2>My Logo</h2>
-			<a href="#" class="breadcrumb"><img id="breadcrumb-btn" src="assets/mn-btn.png" alt=""></a>
+			
 			<ul class="desktop-nav">
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a class="nav-link" href="#">Portfolio</a></li>
+				<li><a class="nav-link" href="#">About</a></li>
+				<li><a class="nav-link" href="#">Contact</a></li>
 			</ul>
+			<div class="breadcrumb">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+		
 	</header>
 	<main>
 		<section id="headline">
@@ -244,5 +250,19 @@ I’d love to help with it!</p>
 				</span>
 		</section>
 	</main>
+	<script>
+		const hamburguer = document.querySelector('.breadcrumb');
+		const navMenu = document.querySelector('.desktop-nav');
+
+		hamburguer.addEventListener('click', () => {
+		  hamburguer.classList.toggle('active');
+		  navMenu.classList.toggle('active');
+		});
+
+		document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
+		  hamburguer.classList.remove('active');
+		  navMenu.classList.remove('active');
+		}));
+	</script>
 </body>
 </html>
