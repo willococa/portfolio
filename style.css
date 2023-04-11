@@ -617,4 +617,12 @@ color: white;
   .mobile-work-item {
     display: none;
   }
+
+.splash{
+  display: flex;
+  position: fixed;
+  top: 20%;
+  left: 0;
+  z-index: 99;
+}
 }
