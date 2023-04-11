@@ -18,3 +18,12 @@
 			section.classList.toggle("blur");
 
 		}
+		function validateForm(e){
+  			let mail = document.forms["contact-form"]["email"].value;
+			const error = document.getElementById('mail-error');
+  			if(mail.toLowerCase() != mail){
+  				error.hidden = false;
+  				return false;  				
+  			}
+  			return true
+		}
