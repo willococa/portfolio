@@ -621,8 +621,29 @@ color: white;
 .splash{
   display: flex;
   position: fixed;
-  top: 20%;
+  top: 0;
   left: 0;
   z-index: 99;
 }
+.popup {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 50px;
+  margin: 5% 20%;
+  max-width: 60%;
+  border-radius: 30px;
+
+}
+.popup img {
+  max-height: 90%;
+  max-width: 90%;
+ 
+}
+}
+
+.blur {
+  filter: blur(8px);
 }
