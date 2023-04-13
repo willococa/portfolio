@@ -239,12 +239,12 @@
 			<h2>Contact me</h2>
 			<p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
 I’d love to help with it!</p>
-			<form  name="contact-form" action="https://formspree.io/f/mzbqjrkw" method="post" class="contact-form" onsubmit="return validateForm()">
-				<input class="input" type="text" name="name" placeholder="Enter your name" maxlength="30" required>
-				<input class="input" type="email" name="email" placeholder="Enter your email" required>
-				<textarea class="message" name="message" cols="30" rows="10" placeholder="Write your message here..." maxlength="500" required></textarea>				
+			<form  name="contact-form" action="https://formspree.io/f/mzbqjrkw" method="post" class="contact-form" onsubmit="return bool">
+				<input class="input" id="name" type="text" name="name" placeholder="Enter your name" maxlength="30" required>
+				<input class="input" id="email" type="email" name="email" placeholder="Enter your email" required>
+				<textarea class="message" id="text-area" name="message" cols="30" rows="10" placeholder="Write your message here..." maxlength="500" required></textarea>				
 				<span id="mail-error" class="error" hidden> * The email must be lowercase!</span>
-				<input type="submit" class="submit big-btn" value="Get in touch">
+				<input id="getin" type="submit" class="submit big-btn" value="Get in touch">
 			</form>
 				
 			</div>
