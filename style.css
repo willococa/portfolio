@@ -207,6 +207,16 @@ h2 {
   text-transform: uppercase;
 }
 
+.desktop-nav a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
 .work-item .tech-tags {
   display: flex;
   list-style-type: none;
@@ -382,18 +392,11 @@ ul#tech-list li ul li img {
   width: 100%;
   height: 11.3em;
 }
+
 header {
   position: fixed;
 }
-.desktop-nav a {
-  text-decoration: none;
-  font-weight: 600;
-font-size: 32px;
-line-height: 44px;
-display: flex;
-align-items: center;
-color: white;
-}
+
 .desktop-nav {
   list-style: none;
   position: fixed;
@@ -405,11 +408,11 @@ color: white;
   opacity: 90%;
   width: 100%;
   height: 100%;
- 
   text-align: center;
   transition: 0.3s;
   z-index: 4;
 }
+
 .desktop-nav.active {
   left: 0;
 }
@@ -417,6 +420,7 @@ color: white;
 .desktop-work-items {
   display: none;
 }
+
 .bar {
   display: block;
   width: 25px;
@@ -427,6 +431,7 @@ color: white;
   background-color: #6070ff;
   z-index: 4;
 }
+
 .breadcrumb {
   z-index: 4;
 }
@@ -444,8 +449,8 @@ color: white;
   transform: translateY(-8px) rotate(-45deg);
   background-color: white;
 }
-@media only screen and (min-width: 768px) {
 
+@media only screen and (min-width: 768px) {
   ul#tech-list li ul li {
     align-items: flex-start;
   }
@@ -453,17 +458,13 @@ color: white;
   .breadcrumb {
     display: none;
   }
+
   .main-header {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    
   }
-  #main-header h2 {
-    min-width: 70px;
-    max-height: 20px;
-    z-index: 5;
-  }
+
   .desktop-nav {
     display: flex;
     flex-direction: row;
@@ -477,7 +478,6 @@ color: white;
     height: 70px;
     background-color: white;
     opacity: 100%;
-  
   }
 
   .desktop-nav li a {
@@ -521,6 +521,9 @@ color: white;
   }
 
   #main-header h2 {
+    min-width: 70px;
+    max-height: 20px;
+    z-index: 5;
     display: flex;
     list-style: none;
     gap: 1.2em;
