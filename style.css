@@ -449,11 +449,13 @@ header {
   transform: translateY(-8px) rotate(-45deg);
   background-color: white;
 }
-.inactive{
-  margin: 0; 
-  height: 100%; 
-  overflow: hidden
+
+.inactive {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }
+
 @media only screen and (min-width: 768px) {
   ul#tech-list li ul li {
     align-items: flex-start;
