@@ -165,3 +165,8 @@ form.addEventListener('change', () => {
     message: form.message.value,
   }));
 });
+
+const oldform = JSON.parse(localStorage.getItem('form'));
+form.name.value = oldform.name;
+form.email.value = oldform.email;
+form.message.value = oldform.message;
