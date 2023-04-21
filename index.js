@@ -1,6 +1,9 @@
 const hamburguer = document.querySelector('.breadcrumb');
 const menu = document.querySelector('.desktop-nav');
 const popup = document.querySelector('#popup-display');
+const form = document.forms['contact-form'];
+
+const error = document.getElementById('mail-error');
 const projects = [
   {
     name: 'Tonic',

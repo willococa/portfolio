@@ -911,3 +911,9 @@ header {
     flex-basis: 90%;
   }
 }
+
+
+.error{
+  background-color: white;
+  color: red;
+}
