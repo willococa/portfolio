@@ -147,14 +147,13 @@ document.querySelectorAll('.project').forEach((n) => n.addEventListener('click',
 }));
 
 form.addEventListener('submit', (e) => {
-  e.preventDefault()
+  e.preventDefault();
   const mail = form.email.value;
 
-	if (mail.toLowerCase() != mail) {
-		error.hidden = false;
-	}
-	else {
+  if (mail.toLowerCase() !== mail) {
+    error.hidden = false;
+  } else {
     error.hidden = true;
-    form.submit()
-	}	
+    form.submit();
+  }
 });
