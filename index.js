@@ -21,7 +21,7 @@ const projects = [
     linkLive: 'https://willococa.github.io/portfolio/',
     linkSource: 'https://github.com/willococa/portfolio',
 
-  },
+  }
   {
     name: 'Multi-Post Stories',
     duetimes: { place: 'Canopy', ocupation: 'Back end Dev', time: '2015' },
@@ -83,7 +83,7 @@ const projects = [
 
   },
 ];
-function showPopUp(id) {
+function shoPopUp(id) {
   const project = projects[id - 1];
   popup.classList.toggle('splash');
   document.body.classList.add('popupstate');
