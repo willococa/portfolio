@@ -97,16 +97,17 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   document.body.classList.toggle('inactive');
 }));
 
-document.querySelectorAll('.project').forEach((n) => n.addEventListener('click', () => {
+document.querySelectorAll('.project').forEach((n) => n.addEventListener('click', (e) => {
   let id = n.id.split('-').slice(-1)
   showPopUp(id)
+  e.preventDefault()
 }));
 
 function  showPopUp(id) {	
   let project = projects[id-1]	
   popup.classList.toggle('splash');
   document.body.classList.add('popupstate')
-  navMenu.classList.toggle('navlinkpopupstate')
+  menu.classList.toggle('navlinkpopupstate')
   popup.innerHTML += `		
 <div class="popup pop-1 work-item-list">			
   <div class="pop-header"><h2>${project.name}</h2> <a href="#" id="exit-btn">X</a></div>
@@ -136,10 +137,11 @@ function  showPopUp(id) {
 </div>`
 
   const exitButton = document.getElementById('exit-btn');
-  exitButton.addEventListener('click', () => {      	
+  exitButton.addEventListener('click', (e) => {      	
     popup.classList.toggle('splash');
     document.body.classList.remove('popupstate')
-    navMenu.classList.toggle('navlinkpopupstate')
+    menu.classList.toggle('navlinkpopupstate')
     popup.innerHTML = '';
+    e.preventDefault()
   });
 }
