@@ -145,3 +145,16 @@ document.querySelectorAll('.project').forEach((n) => n.addEventListener('click',
   showPopUp(id);
   e.preventDefault();
 }));
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault()
+  const mail = form.email.value;
+
+	if (mail.toLowerCase() != mail) {
+		error.hidden = false;
+	}
+	else {
+    error.hidden = true;
+    form.submit()
+	}	
+});
