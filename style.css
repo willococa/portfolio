@@ -15,6 +15,7 @@ html {
 body {
   background-color: #ecedf3;
   margin: 0;
+  width: fit-content;
 }
 
 h1 {
@@ -245,7 +246,9 @@ main {
   text-decoration: none;
   font-size: 24px;
 }
-
+.work-item img{
+  max-width: 100%;
+}
 .work-item .tech-tags {
   display: flex;
   list-style-type: none;
