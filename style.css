@@ -15,6 +15,7 @@ html {
 body {
   background-color: #ecedf3;
   margin: 0;
+  width: fit-content;
 }
 
 h1 {
@@ -43,6 +44,10 @@ h1 {
 
 h2 {
   color: #172b4d;
+}
+
+main {
+  width: fit-content;
 }
 
 .connect {
@@ -117,6 +122,13 @@ h2 {
   margin-bottom: 0;
 }
 
+.popup h2 {
+  color: #091e42;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
 #main-header h2 {
   color: #6070f7;
   margin: 0;
@@ -124,6 +136,17 @@ h2 {
   padding-bottom: 1.4em;
   padding-left: 0;
   font-size: 1.8rem;
+}
+
+.popup img {
+  min-height: auto;
+  height: 100%;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.work-item img {
+  max-width: 100%;
 }
 
 #main-header img {
@@ -151,6 +174,12 @@ h2 {
 .contact-section p {
   font-size: 2rem;
   color: #fff;
+}
+
+.popup .text p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
 }
 
 #headline p {
@@ -216,6 +245,12 @@ h2 {
   color: white;
 }
 
+.pop-header a {
+  color: #67798e;
+  text-decoration: none;
+  font-size: 24px;
+}
+
 .work-item .tech-tags {
   display: flex;
   list-style-type: none;
@@ -265,6 +300,16 @@ ul#tech-list li {
   font-weight: 500;
   font-size: 2rem;
   padding: 1.1em 0;
+  margin: 0;
+}
+
+.popup .tech-tags a {
+  background: #ebebff;
+  padding: 0.4em 1.2em;
+  border-radius: 0.8em;
+  text-decoration: none;
+  color: var(--link-color);
+  font-size: 1.2rem;
   margin: 0;
 }
 
@@ -456,6 +501,128 @@ header {
   overflow: hidden;
 }
 
+/**  mobile  popup */
+.splash {
+  position: fixed;
+  backdrop-filter: blur(4px);
+  background-color: rgba(193, 199, 208, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+}
+
+.splash ul.due-time {
+  display: flex;
+  padding-left: 0;
+}
+
+.popup {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-basis: 100%;
+  display: flex;
+  padding: 2.4em 2.4em 6.6em  2.4em;
+  margin: 2% auto;
+  border-radius: 30px;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  background-color: white;
+  height: 94%;
+  overflow-y: auto;
+  flex-direction: column;
+}
+
+.popup .pop-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup .work-item-list {
+  background: white;
+  border-radius: 40px;
+  padding: 12px;
+}
+
+.popup .popup-image {
+  max-height: 60%;
+  padding-bottom: 4em;
+}
+
+.popup .info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+
+.popup .live-icon {
+  min-width: 0;
+  width: 18px;
+  height: 18px;
+  margin: 0 0 0 12px;
+  padding-top: 5px;
+}
+
+.popup .tech-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 14px;
+  column-gap: 14px;
+  border-bottom: solid 0.1em #ebecf0;
+  margin-left: 12px;
+  padding-left: 0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.popup .link-tags {
+  margin-left: 12px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 14px;
+}
+
+.popup .text {
+  flex-basis: 90%;
+}
+
+.popup aside span {
+  padding: 0 12px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.popup .big-btn {
+  padding: 1.4em 2.2em;
+  font-size: 15px;
+  border-radius: 0.5em;
+}
+
+.popup .due-time {
+  color: #7a869a;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.popup .company-name {
+  color: #344563;
+  font-weight: 600;
+}
+
+.popupstate {
+  overflow: hidden;
+  display: flex;
+}
+
+.navlinkpopupstate {
+  position: inherit;
+}
+
 @media only screen and (min-width: 768px) {
   ul#tech-list li ul li {
     align-items: flex-start;
@@ -486,12 +653,32 @@ header {
     opacity: 100%;
   }
 
+  .pop-header a {
+    color: #67798e;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
   .desktop-nav li a {
     color: var(--text-color);
     text-decoration: none;
     transition: background-color 0.4s, color 0.4s;
     transition-timing-function: ease-in;
     font-size: 15px;
+  }
+
+  .popup .tech-tags a {
+    background: #ebebff;
+    padding: 0.4em 1.2em;
+    border-radius: 0.8em;
+    text-decoration: none;
+    color: var(--link-color);
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .popup .link-tags a {
+    padding: 0.4em 1.2em;
   }
 
   .desktop-nav li a:hover {
@@ -518,12 +705,24 @@ header {
     font-size: 1.6rem;
   }
 
+  .popup .text p {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+
   #headline p {
     font-size: 20px;
   }
 
   .work-item-list h2 {
     margin: 0.5em 0 0 0;
+  }
+
+  .popup h2 {
+    color: #091e42;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
   }
 
   #main-header h2 {
@@ -592,6 +791,13 @@ header {
     padding-left: 12px;
   }
 
+  .popup img {
+    min-height: auto;
+    height: 100%;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
   #tech-list .selected ul li img {
     margin-bottom: 12px;
   }
@@ -625,5 +831,88 @@ header {
 
   .mobile-work-item {
     display: none;
+  }
+
+  /* popup styles */
+
+  .splash {
+    position: fixed;
+    backdrop-filter: blur(4px);
+    background-color: rgba(193, 199, 208, 0.5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .splash ul.due-time {
+    display: flex;
+    padding-left: 0;
+  }
+
+  .popup {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 60%;
+    display: flex;
+    padding: 2.4em 2.4em 6.6em  2.4em;
+    margin: 2% auto;
+    border-radius: 30px;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    background-color: white;
+    height: 94%;
+    overflow-y: auto;
+  }
+
+  .popup .pop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .popup .work-item-list {
+    background: white;
+    border-radius: 40px;
+    padding: 12px;
+  }
+
+  .popup .popup-image {
+    max-height: 50%;
+    padding-bottom: 4em;
+  }
+
+  .popup .info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .popup .live-icon {
+    min-width: 0;
+    width: 18px;
+    height: 18px;
+    margin: 0 0 0 12px;
+    padding-top: 5px;
+  }
+
+  .popup .tech-tags {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 14px;
+    border-bottom: solid 0.1em #ebecf0;
+    margin-left: 12px;
+    padding-left: 0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .popup .link-tags {
+    margin-left: 12px;
+  }
+
+  .popup .text {
+    flex-basis: 90%;
   }
 }
